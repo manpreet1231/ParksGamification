@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.parks_gamification">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-    <application android:label="Parks_Gamification.Android" android:theme="@style/MainTheme"></application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-</manifest>
+gAAAAABhvG2008gc_ILMEecTE-pIChQkUPIrwchJH_BziJMtCCjNaCASeZACgqmIptEKouCr1c80dKzsG-FaRfGHreISlgin5Ke8YFFWAaUABggNIOIJWeRQ6DhJ_pOB6CoOiquk3nvb--2NF2GrmddN8XrZ9gdK4i-yiTMBjsg4uhgfKR2D7rAlE6BtNQ54v3_rd2DgMTRqEyJaL9VhnTbR9ZRkgdvpndAaVN2HBaQhe3ditPn9kOq32dFN-lgQe18VR2Tknbzp8ZjMFpbYRT4V5dFxH5kgzA-t7JEpE8wu-5p9_wdl0knH42Gqxs8Jj4SP3fHvTTtdcDZCGRrgc23jQiAn0hKMRV8_mbOaEP19L37G6L5QPx4JgvvNYeDgF1xMn6mVDgDvdWxGHkno1dnZllG8RZzWr3ZKqY2cHN5ug9ds-jscehJgxVSsGqJbTIwYJdPeCabGS3DDDS6ss-ip2RHOQyqxjB_8JNxhLylk_bC3Dj_dNMUYuoM2KoFk7rF6JMeea92ZgjyoJdh-HLr9ZxoY751lZjdmOCNZ60WNF5WhVf7twcDYgCr62lJCNB4dDMksxPyAbEow7Q1SXFs6Di2H6sYsx7OsW0ARqATzrkd1cSpiPKc3f_4Ss4_5dEMpgz5qgDNb_-2L-mHMshHpmWPT14PVYddGwRe5TSX6asLoFBqzDuwEmJc0Ag0nqdh_uNjXQDC3WPqaanAxUUzcYeubVnQyVQ==
