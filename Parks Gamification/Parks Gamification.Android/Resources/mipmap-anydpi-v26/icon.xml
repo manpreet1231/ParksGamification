@@ -1,1 +1,5 @@
-gAAAAABhvG20riUYZYaR8-OBaQPMe5yL-VTQh8kRFlcNZ4SwCRyf-tu9WU6VkjosrmuMDhmA_mlqHYCFxU9cOXJLfGI8INl8E2_0wF9IxZyjxuDqzRdmqzIJQOnhJb6-m14yOivhfs8zavaENdKibxUcQF6hIkmcV7HzdNLozeXY2Tlb1griPwU0BHNdFI1ZTpCIKxmuU5XOLJRwR7MXE1VddBidipbJUvxPdmsUFke-ReFPU4J0OrrKGJMVl5gZGokWR3omIKbzhY9HSAUo-ZAmdNwBTQjeM1VkCPeTwPyAwYlfIt-yhZNtzA_nptIHAzj7s1oiYBKPdD2_bI2XD3XaGvm9x7oPkCatrs6Cy0_vu5eoHrQ6KeKffBrexeFV8xzbVxRE-E8V254DZsHd_tbhMQFgftsjTvkAFpkfptOvA8JtvRAd-n0=
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/launcher_background" />
+    <foreground android:drawable="@mipmap/launcher_foreground" />
+</adaptive-icon>

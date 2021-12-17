@@ -10,6 +10,15 @@ namespace Parks_Gamification.Views
         public WelcomePage()
         {
             InitializeComponent();
+            BindingContext = this;
+
+            var learnMoreButton = new Button() {Text = "LEAEN MORE" };
+            learnMoreButton.SetBinding(Button.CommandProperty, new Binding("OpenWebCommand"));
+
+            var testButton = new Button() { Text = "Go to test page" };
+            testButton.SetBinding(Button.CommandProperty, new Binding("GoToTestPageCommand"));
+
+            Content = new StackLayout() { Padding = 30 , Children = { learnMoreButton, testButton } };
         }
     }
 }

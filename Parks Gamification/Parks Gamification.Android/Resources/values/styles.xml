@@ -1,1 +1,18 @@
-gAAAAABhvG20nX8hN8O_S4Im5ICP8FM2onYoU-GkPn0CqMjqaYHJjIiXflgooj967uVzGAionJNfRjVQMV933yp_FjlehNB_X_VxDK1MpGtRtA3E6q6LdrROoa_L5bqIJpo3VvZOHV68HNj18gO4TFaa9rVZcSsXhMAyACZL6FNE27iOqMesZHyuCmE3zoDd_G39lHMwRGJSITO0Ob3F5CO8KzkQirZ_Ha3LAHq-a9DH67X9JRfFBfukyZN0NXyqLlB1XfKfdmrOaCiLjCa5AKEcFSV02E3G6HiNofehKCYC8oXv2fYWebpI8Rm6bWJ1fYHp18TBGmXvSzNB8__Fc1g1EXzYAasj4bGsURcf0OjwmuytH3dmjXgJi6CWFYpHqWw1cpwBvtbBnHp5ZS9dRnHnzh6eWx-b1kVEwcG5iPCTXDueYNKHglwxgK_rCytX2DNYcnjvBUI0pdQcbTJ2Amj_MnFnXVUk9o35pEDLcjsqDF5qdCziPLowXXn18jkom2bKnXKE3OS0SpCDJt7NnD-KuOGkjZlnIxeiLQ80eaFZIWw_4Vs7BFJ8-AWJpN6lZOBwNVM6uFtCcAejUGfxeec273S-C518I3P5Ks0HDo3JFCj8_RyUIslywXV0wRx2yCLOsRMkDC7Nl7EcUA1bXvR-52ZPl4PkJcDpAWkgfe60oA9Q6xYRVLjRTk-S3p2Nhbm0ulFJKGdXmJo7Nv4693JleTfdhpKUCWWkPE9hgAL66dHONIpW1qUU7zbpH1nDbHNx97MsYkXpvn6u6VO465JivNuPp8zjsLDV1Gxow_IQimUdAWv2aQMPhjU5Gkf7FIAxlbR4wpByyrsdu6eD-e1o4JaArEDjrqARadDVAt0mPxjcPgNeH5XVtLOg06JDNe7s2bpuVN3DstBt5K7i0LmxbjsfyJsKRt-4pJcEsUq4RMaIvBisRbIKAy0JVZBZa0DXY-XTgGQEpPmgfZHC8LZn5IVsxUTwvocu-fPKaW_6tlEPS8rZSRUF9aU4Oly7ItPT_cM68fUJc3qsERdd6RAxp1fSMNSeDz4T72cLGeW_74NHBkyrI0FROnmt9gnIvbFnJjPn3fMedjA8_kbS86eey-ki3gIfKgs14n81vkB1KoDv7vK0r5tLuxddJKWrtN2vAW9KRmS50Q-qZlfoUlyYvypZdh7-aNiFdI8f_0VJFVouBSdeJoQ=
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="MainTheme" parent="MainTheme.Base">
+    <!-- As of Xamarin.Forms 4.6 the theme has moved into the Forms binary -->
+    <!-- If you want to override anything you can do that here. -->
+    <!-- Underneath are a couple of entries to get you started. -->
+
+    <!-- Set theme colors from https://aka.ms/material-colors -->
+    <!-- colorPrimary is used for the default action bar background -->
+    <!--<item name="colorPrimary">#2196F3</item>-->
+    <!-- colorPrimaryDark is used for the status bar -->
+    <!--<item name="colorPrimaryDark">#1976D2</item>-->
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <!--<item name="colorAccent">#FF4081</item>-->
+  </style>
+</resources>

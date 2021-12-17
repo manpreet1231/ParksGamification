@@ -1,1 +1,19 @@
-gAAAAABhvG2khgsAF54uAmqUSt8KgjJDT6Ed4M4GIKeAWrCtO2JuLnmJGrFgNuj7moDExSMCXFZvGyKFEYVxt1Ls4ew04GL9VTx3Zp3Lvhx5OnY6i8jwIRoVkcJRymaTIhOVup3Gac95bB2w08Bg5FgGQ-Pks7Mr8C3yYVYqRcHoetyXuug2fd7E6VI9Iip53nfc3nE-TMEI9V2PAvPtDhb59sM_2BF_PTA8mvwX2OJ0oAv8zNNootmBTr-jkd-TlB8ipO9BLEaLBcT-IUsE4thaiV_pn9AdUjUYAKgKPKsxElQ-ICSJFuPlX4Y2qtdQhnS7hca2qDbgBrV9SCPb5yVKX-qempVDCPneAOcgsnNc3bgBQuJs_gcL-iPA_O5DLqKTCfDtafgEM7qQsPbKXcIPtsDQrvZYb2mcB8mINyWOIOsThqlYHv485N8KACToK-SPNloQ_Cn0aqzq0IWt8-3_SSCDphgBlNRZrurxNA3hC7UAS8qmG2BapAhTQOWg6GqHdD1fRSMpUFMIeik9kYIwBOVMy7ZPWBX9wM2LreV9B-5oKShiu_PjM3rvaUrkzzoVfjT-KvFyRUyg5ZjpWcF2lBCObvcu1eEQ9Fva4DydIrOsnu-w_hUbkM3U014W5n2Ekim-0X-uaJxHEHsmApj6j40But3vyLKj_GEZB_06kh8HrTkpFUk0BTmil4HYk6MAcMcfaEHxtLlRjqkiM0TU1B0tJ2gCc3O3MHoF5H3UDaRMwpop7O4wo00-XPwPSnbm77uYvARucEzGSobiI3khfAHUSeJ_eBbBaopwge3YUQhG_EdPWczIJfiYMIdSbg8lqHlYF5Ugj6exJalKOvxfR4OT6S6so7eORWU8svAkGJw4opEqf2IsIRJXFsfrut4FHvdBLZ6CSNzYbE0Rk_gLfsYxv2pc2cS0eU3dUvOGhMELX663rqw=
+Any raw assets you want to be deployed with your application can be placed in
+this directory (and child directories) and given a Build Action of "AndroidAsset".
+
+These files will be deployed with your package and will be accessible using Android's
+AssetManager, like this:
+
+public class ReadAsset : Activity
+{
+    protected override void OnCreate (Bundle bundle)
+    {
+        base.OnCreate (bundle);
+
+        InputStream input = Assets.Open ("my_asset.txt");
+    }
+}
+
+Additionally, some Android functions will automatically load asset files:
+
+Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
