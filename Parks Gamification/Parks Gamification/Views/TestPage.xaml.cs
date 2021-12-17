@@ -15,11 +15,13 @@ namespace Parks_Gamification.Views
         public TestPage()
         {
             InitializeComponent();
-            BindingContext = this;
+
+            BindingContext = new ViewModels.TestViewModel();
 
             var testLabel1 = new Label() { Text = "Hello and welcome to the test page." };
             var testLabel2 = new Label() { Text = "This is the second message." };
             Content = new StackLayout() { Padding = 30, Children = { testLabel1, testLabel2 } };
+
         }
     }
 }

@@ -10,7 +10,8 @@ namespace Parks_Gamification.Views
         public WelcomePage()
         {
             InitializeComponent();
-            BindingContext = this;
+
+            BindingContext = new ViewModels.WelcomeViewModel();
 
             var learnMoreButton = new Button() {Text = "LEAEN MORE" };
             learnMoreButton.SetBinding(Button.CommandProperty, new Binding("OpenWebCommand"));
